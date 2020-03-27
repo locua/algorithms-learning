@@ -1,0 +1,31 @@
+#+TITLE: Algorithms & Data Structures: Lab 20
+#+SUBTITLE: week of 25th March 2019
+
+#+include: ../labsheet.org
+
+* Setup
+** Saving your work from last week
+   By now you should be familiar with the operations needed to save
+   your work.  Make sure you commit your work to version control
+   often, and always have a backup copy, ideally remotely (for example
+   in your own account on the department's gitlab installation.)
+** No new work this week
+   There is no new material (other than this labsheet itself) to be
+   pulled.  You should pull from gitlab, whereupon this
+   labsheet will be in the =20/= directory alongside the existing
+   directories.
+* Assessed submissions
+** Tries lab submission
+   Submit your work on tries, along with answers to the optional extra
+   questions, to the submission area for this activity on the VLE by
+   *Friday 29th March* at *16:00*.  As usual, you may submit more than
+   once, and the highest-achieved score is retained.
+** General knowledge quiz
+   The general knowledge quiz closes at *16:00* on *Friday 29th March*.
+** Final versions of summaries
+   Your final summaries of your assigned algorithms and data
+   structures are due by *16:00* on *Friday 29th March*.
+** [optional] Implementing your own lab exercise
+   If you want bonus points, your merge request must be made against
+   my ~is52038-labs~ repository on the College gitlab instance by
+   *16:00* on *Friday 29th March*.

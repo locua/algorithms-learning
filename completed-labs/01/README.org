@@ -1,0 +1,58 @@
+#+TITLE: Algorithms & Data Structures: Lab 01
+
+#+SUBTITLE: week of 1st October 2018
+
+#+include: ../labsheet.org
+
+* Setup
+** Installing and configuring software
+   In this series of labs, you will be asked to write programmes with
+   specified behaviours.  You will be provided with test cases which
+   probe whether you have correctly implemented your programmes.
+*** Programming language
+    In order to compile your programmes, you will need to install a
+    compiler and runtime.  Which compiler will depend on your choice
+    of programming language for Principles and Applications of
+    Programming: for Games Programming students, this will be C++; for
+    most Computer Science students, this will be Java.  You must tell
+    me about your choice by visiting [[https://learn.gold.ac.uk/course/view.php?id=11491][the learn.gold page]] for this
+    module and [[https://learn.gold.ac.uk/mod/choicegroup/view.php?id=601048][selecting your programming language]].
+*** Development environment
+    You will need to install a development environment.  How you do
+    this depends on your operating system and programming language.
+    Follow [[https://learn.gold.ac.uk/mod/url/view.php?id=601050][instructions on learn.gold]] to identify what you need to do,
+    and the respective installation procedures for the software you
+    need to get started.
+** Getting the lab distribution
+   You will also need to get the lab code, which is distributed from a
+   [[http://gitlab.doc.gold.ac.uk/crhodes/is52038b-labs][git repository]] hosted on the [[http://gitlab.doc.gold.ac.uk][Department's gitlab instance]].  You
+   should be able to issue the following command from a terminal:
+#+begin_example
+  git clone http://gitlab.doc.gold.ac.uk/crhodes/is52038b-labs.git
+#+end_example
+   and the lab bundle code will be downloaded to the =is52038b-labs=
+   directory relative to your current directory.
+** Testing your installation
+   Once you have performed all the previous steps, you should have a
+   directory containing the lab bundle.  This directory will be under
+   version control – more on that in a couple of weeks – and you
+   should try to keep track of your changes to it.
+
+   For now, what you should do is test whether your installation and
+   configuration of software has worked.  To do that, run the two
+   commands
+#+begin_example
+  cd is52038b-labs/01/java
+  make test
+#+end_example
+   if you are learning Java, and
+#+begin_example
+  cd is52038b-labs/01/cpp
+  make test
+#+end_example
+   if you are learning C++.
+
+   If your installation is working, you should get a reassuring
+   message.  If it isn't, you are likely to get a hard-to-understand
+   error message; if you don't know how to go about fixing the
+   problem, please ask on the [[https://learn.gold.ac.uk/mod/forum/view.php?id=600474][discussion forum]].

@@ -1,0 +1,70 @@
+#+TITLE: Algorithms & Data Structures: Lab 10
+#+SUBTITLE: week of 10th December 2018
+
+#+include: ../labsheet.org
+
+* Setup
+** Saving your work from last week
+   By now you should be familiar with the operations needed to save
+   your work.  Make sure you commit your work to version control
+   often, and always have a backup copy, ideally remotely (for example
+   in your own account on the department's gitlab installation.)
+** No new code this week
+   As this week's lab is devoted to finishing off all the outstanding
+   pieces of work, there is no new material (other than this labsheet
+   itself) to be pulled.  If you do nevertheless pull from gitlab,
+   this labsheet will be in the =10/= directory alongside the existing
+   directories.
+* Module evaluation and feedback
+  At this point in the term, you have the opportunity to leave
+  feedback on this module through the anonymous module evaluation
+  process.  A link to the survey is available on the main [[https://learn.gold.ac.uk/course/view.php?id=11491][learn.gold
+  page for this module]].  The feedback from this process is considered
+  by Department management and by the Department's Learning & Teaching
+  Committee, which try to improve our teaching practices across the
+  board.  Please complete your module evaluation surveys for all your
+  modules, including this one, by the end of this term.
+* Assessed submissions
+  The remaining pieces of work this term all have a deadline of
+  *16:00* on *Friday 14th December*; no extensions are possible.
+
+  A reminder: if you have missed any assessments this term for reasons
+  which are valid extenuating circumstances (/e.g./ due to
+  hospitalisation or bereavement), you can be excused from those
+  assessments on the condition that you have provided adequate
+  evidence of the circumstances to the Student Office in 25 St James
+  (or by e-mail to [[mailto:computing@gold.ac.uk][computing@gold.ac.uk]]).  If you believe that you
+  have extenuation for any of this term's assignments, please would
+  you let me know by e-mail so that I can check with the Student
+  Office and adjust my records of your marks?
+** Hash tables
+   The [[https://learn.gold.ac.uk/mod/lti/view.php?id=613662][submission area for hash tables]], based on the [[https://learn.gold.ac.uk/mod/url/view.php?id=613720][sheet for lab 08]],
+   is open.  A very good grade is awarded for an implementation of the
+   required methods ~insert~, ~find~ and ~loadFactor~ with the
+   specified collision resolution scheme; an outstanding grade
+   requires in addition a robust implementation of ~delete~ and
+   handling the situation where the hash table becomes full.  The
+   deadline for submissions is *16:00* on *Friday 14th December*; as
+   usual, you may submit more than once, and your highest score is
+   retained.
+** String matching
+   The [[https://learn.gold.ac.uk/mod/lti/view.php?id=613660][submission area for string matching]], based on the [[https://learn.gold.ac.uk/mod/url/view.php?id=613721][sheet for lab
+   09]], is open.  A very good grade is awarded for a correct
+   implementation of naïve string matching and correctly counting
+   character memory accesses in that algorithm; an outstanding grade
+   requires in addition implementations of Rabin-Karp (with the
+   specified rolling hash function) and Knuth-Morris-Pratt matching
+   exactly as specified in lectures, along with correct counting of
+   memory operations for those algorithms.  The deadline for
+   submissions is *16:00* on *Friday 14th December*; as usual, you may
+   submit more than once, and your highest score is retained.
+** Binary trees quiz
+   The [[https://learn.gold.ac.uk/mod/quiz/view.php?id=613726][binary trees quiz]] closes at *16:00* on *Friday 14th December*.
+* Vacation
+  It is important that you get a break over the vacation: please do
+  rest and enjoy yourselves.  A little time spent reading, thinking,
+  practicing or consolidating this term's work (by finishing or
+  redoing lab implementations, reading the given sections of the
+  textbooks and attempting exercises, or reviewing your quiz attempts)
+  will stand you in good stead.  Lectures restart at *10:00* (note
+  earlier time) on 7th January 2019!

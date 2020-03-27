@@ -1,0 +1,13 @@
+#+OPTIONS: toc:nil author:nil date:nil
+
+#+LaTeX_HEADER: \usepackage{fontspec}
+#+LaTeX_HEADER: \setmainfont[Mapping=tex-text]{Libertinus Serif}\setsansfont[Mapping=tex-text]{Libertinus Sans}
+#+LaTeX_HEADER: \usepackage{unicode-math}
+#+LaTeX_HEADER: \setmathfont{Libertinus Math}
+#+LaTeX_HEADER: \usepackage[margin=1in]{geometry}
+#+LaTeX_HEADER: \usepackage{algpseudocode}
+#+LaTeX_HEADER: \algnewcommand\algorithmicbreak{\textbf{break}}
+#+LaTeX_HEADER: \algnewcommand\Break{\algorithmicbreak{} }%
+#+LaTeX_HEADER: \algnewcommand\algorithmiccontinue{\textbf{continue}}
+#+LaTeX_HEADER: \algnewcommand\Continue{\algorithmiccontinue{} }%
+#+LaTeX_HEADER: \MakeRobust{\Call}

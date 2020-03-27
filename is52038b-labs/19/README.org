@@ -1,0 +1,54 @@
+#+TITLE: Algorithms & Data Structures: Lab 19
+#+SUBTITLE: week of 18th March 2019
+
+#+include: ../labsheet.org
+
+* Setup
+** Saving your work from last week
+   By now you should be familiar with the operations needed to save
+   your work.  Make sure you commit your work to version control
+   often, and always have a backup copy, ideally remotely (for example
+   in your own account on the department's gitlab installation.)
+** No new code this week
+   As this week's lab is devoted to you creating your own exercise,
+   there is no new material (other than this labsheet itself) to be
+   pulled.  However, you should pull from gitlab, whereupon this
+   labsheet will be in the =19/= directory alongside the existing
+   directories.
+* [optional] Implementing your own lab exercise
+  Your task for this week is to choose one of the six data structures
+  from the essay assignment brief, and to construct a lab exercise for
+  that data structure (in the style of the lab exercises you have been
+  doing).
+
+  This task is optional.  You will not be penalised for not doing it;
+  however, there are *bonus points* towards the coursework score
+  available for attempting it, and even more *bonus points* for
+  attempting it well.
+  
+  In order for your attempt to be counted, you must submit a pull
+  request to the ~is52038b-labs~ repository on the College's gitlab
+  instance.  This pull request should put files under the =19/=
+  directory, and I should be able to run =make= and =make test= in a
+  language-appropriate subdirectory.  Up to one lab's worth of *bonus
+  points* is available for a perfect submission delivered by *16:00*
+  on *Friday 23rd March*.
+* Assessed submissions
+** Peer-assessment
+   Your assessments of other people's draft summaries are due on the
+   VLE by *16:00* on *Friday 22nd March* (the activity is open for
+   peer-assessment from *16:00* on *Friday 15th March*).  Failure to
+   submit peer-assessments will lead to an automatic mark of zero for
+   the assessment part of the activity.
+** Strings quiz
+   The strings quiz closes at *16:00* on *Friday 22nd March*.
+** Tries lab submission
+   Submit your work on tries, along with answers to the optional extra
+   questions, to the submission area for this activity on the VLE by
+   *Friday 29th March* at *16:00*.  As usual, you may submit more than
+   once, and the highest-achieved score is retained.
+** General knowledge quiz
+   The general knowledge quiz closes at *16:00* on *Friday 29th March*.
+** Final versions of summaries
+   Your final summaries of your assigned algorithms and data
+   structures are due by *16:00* on *Friday 29th March*.

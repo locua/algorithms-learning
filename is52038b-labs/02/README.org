@@ -1,0 +1,142 @@
+#+TITLE: Algorithms & Data Structures: Lab 02
+#+SUBTITLE: week of 8th October 2018
+
+#+include: ../labsheet.org
+
+This week's lab includes an assessment, available from the module
+[[https://learn.gold.ac.uk/course/view.php?id=11491][learn.gold page]], which is open only during this week.  Aim
+to [[https://learn.gold.ac.uk/mod/lti/view.php?id=605172][submit]] before the end of the session!
+
+* Setup
+** Saving your work
+   You might by now have used ~git~ to download the lab bundle, to
+   test your setup on your own computer.  (If you haven't, but are
+   planning to work on lab computers, you will nevertheless need to
+   understand this section in order to save your work in future.)  You
+   might have made changes to your copy, and at this point you should
+   save those changes.  First, examine your copy to see if there are
+   any changes; run these commands from the labs directory:
+#+begin_example
+  git status
+  git diff
+#+end_example
+   The first command will summarize files that have changed in the
+   directory relative to the pristine copies; the second will show you
+   the details of the changes.  If you are satisfied that you want to
+   keep the changes, store them in your local version control system
+   by doing
+#+begin_example
+  git commit -a
+#+end_example
+   and writing a suitable commit message.  (If you have no changes,
+   you don't need to do this)
+** Downloading this week's distribution
+   Once you have successfully saved your changes from last week, if
+   any, you can get my updates by doing
+#+begin_example
+  git pull
+#+end_example
+   which /should/ automatically merge in new content.  After the ~git
+   pull~ command, you should have a new directory containing this
+   week's material (named ~02/~) alongside the existing ~00/~ and
+   ~01/~ directories.
+
+   Alternatively, you can make a fresh download of everything, for
+   example to a different computer, using
+#+begin_example
+  git clone http://gitlab.doc.gold.ac.uk/crhodes/is52038b-labs.git
+#+end_example
+   which will check out the lab bundle to a directory called
+   ~is52038b-labs~ under your current working directory.
+#+BEGIN_EXPORT LaTeX
+\clearpage
+#+END_EXPORT
+* Pseudocode exercises
+** Exercise 1
+   Consider the following pseudocode, defining a function \textsc{Exercise1}:
+#+BEGIN_EXPORT LaTeX
+\begin{algorithmic}[1]
+  \Function{Exercise1}{v}
+  \State{a ← 0; b ← 0}
+  \For{0 ≤ i < \Call{length}{v}}
+  \If{v[i] > b}
+  \If{v[i] > a}
+  \State{b ← a}
+  \State{a ← v[i]}
+  \Else
+  \State{b ← v[i]}
+  \EndIf
+  \EndIf
+  \EndFor
+  \State \Return b
+  \EndFunction
+\end{algorithmic}
+#+END_EXPORT
+   Run \textsc{Exercise1} (recording the states of the program on
+   paper or in a text editor) on the following inputs:
+   - the vector {5,2,0,3,8}
+   - the vector made up of your birth date (/e.g./ {1,9,7,8,1,2,2,5})
+
+   \noindent Exchange your answers with your neighbour, and discuss:
+   1. what do you think this pseudocode does?
+   2. can you prove it?
+   3. in terms of the length of v, how many times does line 4 get
+      executed?  What about line 6?
+#+BEGIN_EXPORT LaTeX
+\clearpage
+#+END_EXPORT
+** Exercise 2
+   Consider the following pseudocode, defining a function
+   \textsc{Exercise2}:
+#+BEGIN_EXPORT LaTeX
+\begin{algorithmic}[1]
+  \Function{Exercise2}{v}
+  \For{0 < i < \Call{length}{v}}
+  \State{current ← v[i]}
+  \State{j ← i - 1}
+  \While{j ≥ 0}
+  \If{v[j] ≤ current}
+  \State \Break
+  \EndIf
+  \State{v[j+1] ← v[j]}
+  \State{j ← j - 1}
+  \EndWhile
+  \State{v[j+1] ← current}
+  \EndFor
+  \State \Return v
+  \EndFunction
+\end{algorithmic}
+#+END_EXPORT
+   Run \textsc{Exercise2} (recording the states of the program on
+   paper or in a text editor) on the following inputs:
+   - the vector {5,2,0,3,8}
+   - the vector made up of the digits of your birth year (/e.g./ {1,9,7,8})
+
+   \noindent Exchange your answers with your neighbour, and discuss:
+   1. what do you think this pseudocode does?
+   2. can you prove it?
+   3. in terms of the length of v, how many times does line 4 get
+      executed?  What about line 6?
+* Hello, world
+  Your lab bundle should contain a directory named ~02~, with
+  subdirectories ~cpp~ and ~java~ for C++ and Java respectively.  Your
+  task for this part of the lab is to implement two methods:
+
+  1. ~studentNumber()~, which should return your student number (as an
+     integer)
+  2. ~moodleID()~, which should return your Moodle ID number, which
+     you can find by clicking on your name in the footer of every
+     learn.gold page while you are logged in and looking at (and
+     expanding if necessary) the URL bar of your browser.
+
+  Check that you can compile your modified code by running ~make~ in
+  the appropriate directory.  The test cases provided with the lab
+  bundle (that you can run using ~make test~) do not check that you
+  have correctly identified these numbers for yourself: only that they
+  are plausible.
+* Uploading your work
+  Before the end of the session, you must submit your work to the
+  [[https://learn.gold.ac.uk/mod/lti/view.php?id=605172][online submission system]].  Access to the online submission will be
+  closed at *16:00* on *Friday 12th October*.  You may submit more
+  than once, and your best score will be kept: do not wait until the
+  very end of the week to submit.

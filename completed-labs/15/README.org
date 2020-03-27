@@ -1,0 +1,54 @@
+#+TITLE: Algorithms & Data Structures: Lab 15
+#+SUBTITLE: week of 11th February 2019
+
+#+include: ../labsheet.org
+
+* Setup
+** Saving your work from last week
+   By now you should be familiar with the operations needed to save
+   your work.  Make sure you commit your work to version control
+   often, and always have a backup copy, ideally remotely (for example
+   in your own account on the department's gitlab installation.)
+** Downloading this week's distribution
+   Other than this labsheet, there are no new files for this week's
+   lab.
+* Current activities
+** Graphs lab exercise
+   The [[https://learn.gold.ac.uk/mod/lti/view.php?id=627768][graphs lab submission area]] is now open; it closes at *16:00* on
+   *Friday 15th February*.
+** Graphs quiz
+   The [[https://learn.gold.ac.uk/mod/quiz/view.php?id=627554][quiz on Graphs]] closes at *16:00* on *Friday 15th February*.  It
+   is a challenging quiz; make sure you leave yourself time to attempt
+   it at least twice by then.
+* Written assignment
+  The brief for your written assignment is now available.  You should
+  start your research and development in good time, so that you can
+  submit your drafts for peer-assessment by *16:00* on *Friday 15th
+  March*, and submit your final version by *16:00* on *Friday 29th
+  March*.
+* Exercises
+  In the coming half term we will have time to look at some of the
+  theoretical exercises set as we have gone through the syllabus, *in
+  addition to* the regular practical assignments.  In the next three
+  lab sessions, come prepared to present your answers to the following
+  problems and exercises as follows:
+** Week of 25th February 2019
+   - Problems from CLRS: 1-1, 2-2, 3-2, 3-3
+   - Exercises from CLRS: 
+     * sections 2.1--2.3 :: 2.1-1, 2.1-2, 2.2-1, 2.2-2, 2.2-4, 2.3-1, 2.3-3, 2.3-4
+     * section 4.5 :: 4.5-1, 4.5-2
+   - Exercises from DPV: 0.1, 0.2
+** Week of 4th March 2019
+   - Exercises from CLRS: 
+     * section 6.1 :: 6.1-1, 6.1-2, 6.1-3, 6.1-4;
+     * section 10.4 :: 10.4-1
+     * sections 11.1--11.4 :: 11.2-2, 11.4-1
+     * sections 12.1--12.3 :: 12.1-1, 12.2-1, 12.2-2, 12.3-1, 12.3-3
+     * sections 32.1--32.2 :: 32.1-1, 32.1-2, 32.2-2
+** Week of 11th March 2019
+   - Exercises from CLRS: 
+     * section 15.1 :: 15.1-1, 15.1-4, 15.1-5
+     * sections 23.1--23.2 :: 23.1-7, 23.2-1, 23.2-2, 23.2-4, 23.2-5
+     * section 24.3 :: 24.3-1
+   - Problems from CLRS: 6-1, 23-1, 15-4, 15-5
+   - Exercises from DPV: 5.1, 5.2, 5.5, 6.1, 6.2
